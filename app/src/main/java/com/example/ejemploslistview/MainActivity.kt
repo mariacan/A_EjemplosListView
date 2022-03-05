@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//María José Can Balam
         var frutas:ArrayList<Fruta> = ArrayList()
         frutas.add( Fruta("Manzana", R.drawable.manzana))
         frutas.add(Fruta("Durazno", R.drawable.durazno))

@@ -8,5 +8,6 @@ class Fruta(nombre:String, imagen: Int) {
     init {
         this.nombre = nombre
         this.imagen = imagen
+        //María José Can Balam
     }
 }

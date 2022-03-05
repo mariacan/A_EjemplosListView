@@ -13,6 +13,7 @@ class AdaptadorCustom(var context: Context, items:ArrayList<Fruta>):BaseAdapter(
     init {
         this.items = items
     }
+    //Las 4 importantes
     override fun getCount(): Int {
         return items?.count()!!
     }
@@ -41,7 +42,7 @@ class AdaptadorCustom(var context: Context, items:ArrayList<Fruta>):BaseAdapter(
         holder?.imagen?.setImageResource(item.imagen)
         return vista!!
     }
-
+//ViewHolder
     private class ViewHolder(vista:View){
         var nombre:TextView? = null
         var imagen:ImageView? = null
